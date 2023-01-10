@@ -1,0 +1,17 @@
+@import '../styles/variables';
+
+.Button {
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 2px solid $blue;
+  border-radius: .5rem;
+  margin: .25rem .25rem;
+}
+
+.Num {
+  background-color: darken($celeste, 45);
+}
+
+.Sign {
+  background-color: darken($celeste, 25);
+}

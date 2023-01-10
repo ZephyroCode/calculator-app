@@ -1,0 +1,15 @@
+@import '../styles/variables';
+
+.Calculator {
+  padding: 1rem;
+  background: linear-gradient(to bottom, $purple, darken($purple, 15));
+  border: 2px solid $blue;
+  border-radius: .5em;
+  box-shadow: 1px 1px 3px #000, -1px 1px 3px #000, 1px -1px 3px #000, -1px -1px 3px #000;
+}
+
+.Numpad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 1fr;
+}

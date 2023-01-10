@@ -1,0 +1,26 @@
+@import '../styles/variables';
+
+p {
+  margin: 0;
+}
+
+.Screen {
+  width: 10.5em;
+  height: 3em;
+  margin-bottom: 1em;
+  padding: 1rem .75rem;
+  background-color: $black;
+  color: #ccc;
+  font-size: 1.35rem;
+  text-align: right;
+  border: 2px solid $blue;
+  border-radius: .5rem;
+  overflow: hidden;
+}
+
+.Input {
+  margin-bottom: .25rem;
+  letter-spacing: 1px;
+  font-weight: bold;
+  text-align: right;
+}
